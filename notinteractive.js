@@ -68,11 +68,11 @@ function readTextFile(file) {
           }
         }
       } else {
-        alert(Error('file ${file} does not exist'));
+        alert(Error(`file ${file} does not exist`));
       }
     }
   };
   rawFile.send(null);
 }
 
-readTextFile('./test_valid.txt');
+readTextFile('../test_valid.txt');
