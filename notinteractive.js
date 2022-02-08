@@ -5,7 +5,8 @@ function readTextFile(file) {
     if (rawFile.readyState === 4) {
       if (rawFile.status === 200 || rawFile.status == 0) {
         let allText = rawFile.responseText;
-        if (!/\d\s\d\s\d\r\n$/.test(allText)) {
+        // if (!/\d\s\d\s\d\r\n$/.test(allText)) {
+        if (!/\d\s\d\s\d\s$/.test(allText)) {
           alert(Error('Invalid file format'));
         } else {
           const convertedArr = [];
