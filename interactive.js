@@ -2,6 +2,9 @@ let a;
 let b;
 let c;
 
+let randomstr =
+  'sfvsjnkjdsaklk344rhq29tqhwefbkwqp98o4hfwqp98oihwbpf8oieabsfpoiwh49oi2qbfo8ifb329oih2q3ohqog2q394ogqb2g9hfb3[q049oghq[349ih409h049pgh3409p4waefewgoiulgecwuilcvwuilevwlefwlwiuqevuiwaecskljbaecuackvwe;fukcvweebre';
+
 for (let i = 0; i < 1; i++) {
   a = prompt('Enter parameter a:');
   if (isNaN(Number(a)) || Number(a) === 0) {
